@@ -1,5 +1,5 @@
 p {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
 
@@ -9,4 +9,10 @@ h1 {
 
 #kyrgyz {
     color: blue;
+}
+
+
+#hello {
+    background-color: blueviolet;
+    color: azure;
 }
