@@ -38,3 +38,14 @@ console.log(compare)
 let bucket6 = 2 + 4 + "3"
 console.log(bucket6)
 //JavaScript converts the number 6 to a string when concatenated with "3". Therefore, bucket6 will be the string "63"
+
+let greeting = "Hello, world!"
+console.log(greeting.length); //// This will output: 13
+
+let age = 30;
+age++;
+console.log("Incremented age:", age); 
+//// This will output the age incremented by 1
+
+
+
