@@ -11,3 +11,7 @@ else if (trafficlight=='white') {
 else   {
  console.log("Wait for a minute")   
 }
+
+let bucket1 = (10<23) || (12>10)
+console.log(bucket1)
+
