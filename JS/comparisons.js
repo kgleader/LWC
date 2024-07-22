@@ -15,3 +15,5 @@ else   {
 let bucket1 = (10<23) || (12>10)
 console.log(bucket1)
 
+let bucket3 = (true || false) && true;
+console.log(bucket3);
