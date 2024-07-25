@@ -8,8 +8,10 @@ switch (day){
     break
     
     case 'Friday': console.log('Yes it is a Friday')
-    break
+    break // if we will remove break than next and both codes works. Break stops codes.
 
-    case 'Friday': console.log('It is a second Friday')
+    case 'Wednesday': console.log('It is a second Friday')
+
+    default: console.log('Not found')
     
 }
