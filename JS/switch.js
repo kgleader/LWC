@@ -9,5 +9,7 @@ switch (day){
     
     case 'Friday': console.log('Yes it is a Friday')
     break
+
+    case 'Friday': console.log('It is a second Friday')
     
 }
