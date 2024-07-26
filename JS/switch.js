@@ -15,3 +15,19 @@ switch (day){
     default: console.log('Not found')
     
 }
+
+// Get the current day of the week
+const currentDay = new Date().getDay();
+
+// Define the messages
+const workingDayMessage = "Oh no, Working days";
+const weekendMessage = "Hehe, Weekdays";
+
+// Display the message based on the day of the week
+if (currentDay >= 1 && currentDay <= 5) {
+    console.log(workingDayMessage);
+} else {
+    console.log(weekendMessage);
+}
+
+
