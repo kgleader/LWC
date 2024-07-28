@@ -63,4 +63,9 @@ function getGrade(score){
     }
 }
 
-//
+// example usage
+
+const score = [95, 72, 65, 55, 40, 105, -5];
+score.forEach(score =>{
+    console.log('Score: ${score}, Grade: ${getGrdae(score)}
+});
