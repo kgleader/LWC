@@ -96,4 +96,12 @@ function checkPassAndDiscount(toeflScore, gpa) {
     return result;
 }
 
- 
+
+// Test the function with different scores and GPAs
+let students = [
+    {toeflScore: 85, gpa: 4.6},
+    {toeflScore: 90, gpa: 4.2},
+    {toeflScore: 78, gpa: 3.8},
+    {toeflScore: 88, gpa: 3.2},
+    {toeflScore: 95, gpa: 3.9}
+];
