@@ -69,3 +69,31 @@ const score = [95, 72, 65, 55, 40, 105, -5];
 score.forEach(score =>{
     console.log('Score: ${score}, Grade: ${getGrdae(score)}
 });
+
+
+function checkPassAndDiscount(toeflScore, gpa) {
+    const passingScore = 80;
+    let result = {};
+
+    if (toeflScore >= passingScore) {
+        result.passed = true;
+        if (gpa > 4.5) {
+            result.discount = 'free';
+        } else if (gpa >= 4.0 && gpa <= 4.5) {
+            result.discount = 2000;
+        } else if (gpa >= 3.5 && gpa < 4.0) {
+            result.discount = 3000;
+        } else if (gpa < 3.5) {
+            result.discount = 6000;
+        } else {
+            result.discount = 'Invalid GPA';
+        }
+    } else {
+        result.passed = false;
+        result.discount = 0;
+    }
+
+    return result;
+}
+
+ 
