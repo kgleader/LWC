@@ -105,3 +105,8 @@ let students = [
     {toeflScore: 88, gpa: 3.2},
     {toeflScore: 95, gpa: 3.9}
 ];
+
+students.forEach(student => {
+    let result = checkPassAndDiscount(student.toeflScore, student.gpa);
+    console.log(`TOEFL Score: ${student.toeflScore}, GPA: ${student.gpa}, Passed: ${result.passed}, Discount: ${result.discount}`);
+});
