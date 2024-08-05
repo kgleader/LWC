@@ -122,3 +122,12 @@ function canBuyCigarettes(age, money) {
         return 'Sorry';
     }
 }
+
+//Test the function with different ages and amounts of money
+let customers = [
+    {age: 20, money: 40},
+    {age: 17, money: 50},
+    {age: 18, money: 25},
+    {age: 19, money: 30},
+    {age: 16, money: 35}
+];
