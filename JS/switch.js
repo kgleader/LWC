@@ -131,3 +131,7 @@ let customers = [
     {age: 19, money: 30},
     {age: 16, money: 35}
 ];
+
+customers.forEach(customer => {
+    console.log(`Age: ${customer.age}, Money: ${customer.money}, Result: ${canBuyCigarettes(customer.age, customer.money)}`);
+});
