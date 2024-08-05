@@ -110,3 +110,15 @@ students.forEach(student => {
     let result = checkPassAndDiscount(student.toeflScore, student.gpa);
     console.log(`TOEFL Score: ${student.toeflScore}, GPA: ${student.gpa}, Passed: ${result.passed}, Discount: ${result.discount}`);
 });
+
+
+
+function canBuyCigarettes(age, money) {
+    const cigaretteCost = 30;
+
+    if (age >= 18 && money >= cigaretteCost) {
+        return 'Yes, here are your cigarettes';
+    } else {
+        return 'Sorry';
+    }
+}
