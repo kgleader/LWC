@@ -19,6 +19,6 @@ let customer = [
 ];
 
 customer.forEach(customer => {
-    console.log('Age: $(customer.age'), Money: ${customer.money}, Result: ${canBuyCigarettes(customer.age,customer.money)}'
-    
-})
+    console.log('Age: $(customer.age), Money: ${customer.money}, Result: ${canBuyCigarettes(customer.age, customer.money)}');
+
+});
