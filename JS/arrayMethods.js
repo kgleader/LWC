@@ -9,3 +9,6 @@ console.log(items)
 items.unshift('X')
 
 console.log(items)
+
+items.pop()
+console.log(items)
