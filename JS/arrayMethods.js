@@ -12,3 +12,7 @@ console.log(items)
 
 items.pop()
 console.log(items)
+
+
+items.shift()
+console.log(items)
