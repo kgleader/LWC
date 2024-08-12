@@ -1,5 +1,5 @@
-let countries = ['USA', 'Canada', 'Hungary', 'Poland']; // Step 1
-countries.push('Bishkek', 'Prague');                   // Step 2
-countries.unshift('Canada', 'Poland');                 // Step 3
-let count = countries.length;                          // Step 4
-console.log(count);                                    // Output: 8
+let countries = ['USA', 'Canada','Hungry', 'Poland'];
+countries.push('Bishkek','Prague');
+countries.unshift('Canada', 'Poland');
+let count = countries.length;
+console.log(count);
