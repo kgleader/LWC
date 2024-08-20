@@ -59,5 +59,11 @@ for(let a=0; a<10; a++){
 //}
 
 
+//const animals = ['lions', 'tigers', 'bears'];
+
+//for (let i = 0; i < animals.length; i++) {
+//    console.log(animals[i]);
+//}
+
 
 
